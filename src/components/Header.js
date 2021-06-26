@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
-          <LinkContainer to="/ ">
+          <LinkContainer to="/">
             <Navbar.Brand>SaftyMas</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -14,12 +14,12 @@ const Header = () => {
             <Nav className="mr-auto">
               <LinkContainer to="/cart">
                 <Nav.Link>
-                  <i className="fas fa-shopping-cart">Cart</i>
+                  <i className="fas fa-shopping-cart"><span className='mx-1'>Cart</span></i>
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to='/login'>
                 <Nav.Link>
-                  <i className="fas fa-user">Login</i> 
+                  <i className="fas fa-user"><span className='mx-1'>Login</span></i> 
                 </Nav.Link>
               </LinkContainer>
             </Nav>
